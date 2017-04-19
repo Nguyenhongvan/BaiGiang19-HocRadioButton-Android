@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.vansuzy.baigiang19_hocradiobutton.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mời bạn đánh quá hệ thống học của TOPICA EDUMALL!"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#d32323"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radRatTuyetVoi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rất tuyệt vời"
+            android:checked="false"/>
+
+        <RadioButton
+            android:id="@+id/radTuyetVoi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tuyệt vời"
+            android:checked="false"/>
+
+        <RadioButton
+            android:id="@+id/radTamChapNhan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tạm chấp nhận"
+            android:checked="false"/>
+
+        <RadioButton
+            android:id="@+id/radKhongTotLam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Không tốt lắm"
+            android:checked="false"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnBinhChon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bình chọn"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>
